@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Representación gráfica de Poballe</title><desc id="desc">Composición editorial identificativa, no captura de pantalla</desc>
+<defs><linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19241b"/><stop offset="1" stop-color="#090e16"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#fff" stroke-opacity=".065" fill="none"/></pattern><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c6f59a"/><stop offset="1" stop-color="#ffffff" stop-opacity=".15"/></linearGradient></defs>
+<rect width="1200" height="720" fill="url(#base)"/><rect width="1200" height="720" fill="url(#grid)"/>
+<circle cx="986" cy="195" r="252" fill="#c6f59a" opacity=".075"/><circle cx="987" cy="180" r="185" fill="none" stroke="#c6f59a" stroke-opacity=".35" stroke-width="2"/><circle cx="987" cy="180" r="115" fill="none" stroke="#c6f59a" stroke-opacity=".20" stroke-width="2"/>
+<rect x="69" y="60" width="1060" height="600" rx="22" fill="#0a111b" stroke="#ffffff" stroke-opacity=".18"/>
+<path d="M69 133H1129" stroke="#ffffff" stroke-opacity=".2"/><circle cx="99" cy="96" r="8" fill="#ff808b"/><circle cx="126" cy="96" r="8" fill="#ffcc71"/><circle cx="153" cy="96" r="8" fill="#c6f59a"/>
+<rect x="204" y="77" width="500" height="37" rx="9" fill="#17222e"/><text x="225" y="103" fill="#90a6b4" font-family="Arial, sans-serif" font-size="17">poballe.com/</text>
+<rect x="114" y="192" width="8" height="58" rx="4" fill="#c6f59a"/><text x="147" y="228" fill="#c6f59a" font-family="Arial, sans-serif" font-weight="bold" font-size="23" letter-spacing="5">AGROINDUSTRIA</text>
+<text x="115" y="354" fill="#fff" font-family="Arial, sans-serif" font-size="78" font-weight="bold" letter-spacing="-3">Poballe</text>
+<text x="118" y="405" fill="#adbac9" font-family="Arial, sans-serif" font-size="25">COLABORACIÓN · PADDOCK</text>
+<path d="M115 462H710" stroke="url(#bar)" stroke-width="3"/><path d="M115 505H508M115 535H580M115 565H446" stroke="#ffffff" stroke-opacity=".23" stroke-width="14" stroke-linecap="round"/>
+<rect x="824" y="327" width="248" height="248" rx="24" fill="#c6f59a" fill-opacity=".17" stroke="#c6f59a" stroke-opacity=".57"/><path d="M876 454l68 69 115-125" stroke="#c6f59a" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="115" y="628" fill="#879aaa" font-family="monospace" font-size="16" letter-spacing="3">WEB / PORTFOLIO CASE STUDY</text></svg>
