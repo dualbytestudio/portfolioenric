@@ -1,0 +1,25 @@
+/* Credenciales profesionales: información visible, documentos privados no alojados aquí. */
+#titulaciones {scroll-margin-top:105px;background:linear-gradient(160deg,#0e1824,#0a111a 72%);border-top:1px solid #273542;border-bottom:1px solid #273542}
+#titulaciones .credentials-intro {font-size:14px;line-height:1.8;color:#a6b8c6;max-width:750px;margin:-5px 0 29px}
+#titulaciones .credential-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#titulaciones .credential-card {min-width:0;background:#111d2b;border:1px solid #314658;border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:12px;transition:border-color .2s,transform .2s}
+#titulaciones .credential-card:hover {border-color:#98dcb8;transform:translateY(-2px)}
+#titulaciones .credential-card-top {display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}
+#titulaciones .credential-number {font:700 11px var(--mono);color:var(--lime)}
+#titulaciones .credential-kind {border:1px solid #67839b;padding:6px 9px;border-radius:5px;color:#c8dbec;font:700 10px var(--mono);line-height:1.25}
+#titulaciones .credential-card h3 {font:700 clamp(20px,2.1vw,26px)/1.16 var(--display);letter-spacing:-.04em;color:#f2f6fb;margin:4px 0 0}
+#titulaciones .credential-issuer {font:700 12px/1.6 var(--mono);color:#b5cbb5;margin:0}
+#titulaciones .credential-detail {font-size:13px;color:#9eafbe;line-height:1.75;margin:0}
+#titulaciones .credential-footer {display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px;margin-top:25px;padding:25px 26px;border:1px solid #416252;border-radius:14px;background:radial-gradient(circle at 15% 10%,#c8fa7512,transparent 44%),#101b25}
+#titulaciones .credential-footer strong {color:#edf5f8;font:700 19px var(--display)}
+#titulaciones .credential-footer p {color:#a9bdc6;font-size:12px;line-height:1.75;margin:8px 0 0;max-width:640px}
+#titulaciones .credential-request {display:inline-flex;align-items:center;justify-content:center;gap:12px;text-align:center;padding:14px 20px;min-height:48px;border-radius:7px;background:var(--lime);font-weight:700;font-size:12px;color:#0e1a20;white-space:nowrap;transition:filter .2s}
+#titulaciones .credential-request:hover{filter:brightness(1.1)}
+#titulaciones .credential-request:focus-visible{outline:3px solid #fff;outline-offset:3px}
+#titulaciones .credential-security {color:#839baa;font-size:11px;line-height:1.7;margin:13px 0 0}
+@media (max-width:850px){#titulaciones .credential-footer{grid-template-columns:1fr}#titulaciones .credential-request{justify-self:start}}
+@media (max-width:630px){#titulaciones .credential-grid{grid-template-columns:1fr}#titulaciones .credential-card{padding:20px}#titulaciones .credential-footer{padding:21px}#titulaciones .credential-request{white-space:normal;justify-self:stretch}#titulaciones{scroll-margin-top:85px}}
+@media (prefers-reduced-motion:reduce){#titulaciones .credential-card{transition:none}#titulaciones .credential-card:hover{transform:none}}
+
+/* Cabecera: nueva entrada Títulos sin desbordar en escritorio. */
+@media(min-width:841px) and (max-width:1250px){.nav-links{gap:10px!important}.nav-links>a{font-size:11px!important}.brand-text{font-size:11px}}

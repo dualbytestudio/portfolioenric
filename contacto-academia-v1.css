@@ -1,0 +1,48 @@
+
+/* Contacto flotante + presentación de la futura academia; no modifica estilos antiguos. */
+html{scroll-padding-top:88px}
+#academia{scroll-margin-top:85px}
+.academy-section{border-top:1px solid #263a47;border-bottom:1px solid #263a47;background:radial-gradient(ellipse at 83% 27%,rgba(198,250,117,.095),transparent 52%),linear-gradient(115deg,#101a25,#0a111a 65%)}
+.academy-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(290px,.9fr);align-items:center;gap:clamp(28px,5vw,88px)}
+.academy-copy{padding-block:12px}
+.academy-copy h2{font:700 clamp(45px,5.5vw,80px)/1.02 var(--display);letter-spacing:-.075em;margin:20px 0 22px}
+.academy-copy h2 em{font-style:normal;background:linear-gradient(100deg,var(--lime),var(--cyan));color:transparent;background-clip:text;-webkit-background-clip:text}
+.academy-intro{max-width:640px;color:#b6c8d8;font-size:clamp(14px,1.3vw,17px);line-height:1.85}
+.academy-cta-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:27px}
+.academy-state{border:1px solid #526355;border-radius:99px;color:#d8efc4;padding:9px 13px;font:700 10px var(--mono);white-space:nowrap}
+.academy-visual{position:relative;min-height:300px;display:flex;align-items:center}
+.academy-window{border:1px solid #455967;border-radius:17px;background:radial-gradient(ellipse at 55% 45%,#d1f89a15,transparent 60%),linear-gradient(145deg,#192a37,#101922 75%);width:100%;aspect-ratio:16/11;min-height:250px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 25px 60px #0004;overflow:hidden}
+.academy-window-top{display:flex;justify-content:space-between;gap:10px;padding:18px;color:#8ca4b3;font:700 9px var(--mono)}
+.academy-dots{color:#c8fa75;letter-spacing:3px}
+.academy-play-ring{align-self:center;width:clamp(72px,7vw,112px);height:clamp(72px,7vw,112px);border:1px solid #b6eeb6a5;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 18px #b8f78512,0 0 0 42px #b8f78506}
+.academy-play-ring span{font-size:30px;color:var(--lime);margin-left:5px}
+.academy-gridline{border-top:1px solid #435563;display:flex;justify-content:space-between;gap:15px;padding:17px;font:700 10px var(--mono);color:#9eb4c3}
+.academy-side-note{position:absolute;right:-12px;bottom:8px;background:#c8fa75;border:1px solid #111e24;color:#121d24;border-radius:7px;padding:12px 15px;display:flex;flex-direction:column;font:700 10px var(--mono);box-shadow:0 12px 30px #0005}
+.academy-side-note strong{font-size:16px;line-height:1.4}.academy-side-note span{opacity:.65;font-size:9px;margin-top:5px}
+.contact-fab{position:fixed;z-index:72;right:clamp(14px,2.2vw,32px);bottom:max(18px,env(safe-area-inset-bottom) + 15px);border:1px solid #d7ffaf;background:#c8fa75;color:#111c1b;border-radius:999px;padding:13px 18px;display:flex;gap:10px;align-items:center;justify-content:center;box-shadow:0 14px 38px #0008,0 0 0 5px #c8fa7515;cursor:pointer;font:700 13px var(--display);transition:transform .2s,box-shadow .2s}
+.contact-fab:hover{transform:translateY(-3px);box-shadow:0 18px 40px #0009,0 0 0 7px #c8fa751a}
+.contact-fab:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.contact-dialog{position:fixed;inset:0;margin:auto;max-height:min(91dvh,760px);width:min(calc(100% - 28px),510px);padding:0;border:1px solid #526476;border-radius:18px;background:#111b28;color:#ecf6ff;box-shadow:0 34px 110px #000b;overscroll-behavior:contain}
+.contact-dialog::backdrop{background:#02070cd0;backdrop-filter:blur(7px)}
+.contact-dialog-inner{padding:clamp(23px,4vw,37px);max-height:90dvh;overflow:auto}
+.contact-dialog-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}
+.contact-dialog-kicker{font:700 10px var(--mono);letter-spacing:.07em;color:#b6f5bb}
+.contact-dialog-online{width:7px;height:7px;display:inline-block;border-radius:50%;background:#c8fa75;margin-right:8px}
+.contact-dialog-close{background:#243446;color:#e9f3ff;border:1px solid #405263;border-radius:8px;width:37px;height:37px;cursor:pointer;font-size:17px}
+.contact-dialog h2{font:700 clamp(31px,4vw,44px)/1.06 var(--display);letter-spacing:-.055em;margin:0 0 16px}
+.contact-dialog h2 em{color:#c8fa75;font-style:normal}
+.contact-dialog p{font-size:13px;line-height:1.8;color:#aabed0;margin:0 0 20px}
+#contact-compose-form{display:grid;gap:10px}
+#contact-compose-form label{font:700 12px var(--display);margin-top:3px;color:#e1edf7}
+#contact-compose-form select,#contact-compose-form textarea{font:500 13px/1.5 var(--display);width:100%;background:#0c1420;color:#ebf5ff;border:1px solid #435366;border-radius:9px;padding:13px 14px;outline:none}
+#contact-compose-form select:focus-visible,#contact-compose-form textarea:focus-visible{border-color:#c8fa75;box-shadow:0 0 0 3px #c8fa7526}
+#contact-compose-form textarea{resize:vertical;min-height:88px}
+.contact-send{display:flex;justify-content:space-between;align-items:center;gap:15px;background:#c8fa75;border:1px solid #c8fa75;border-radius:9px;color:#0c1717;padding:14px 17px;margin-top:4px;cursor:pointer;font:700 14px var(--display)}
+.contact-send:hover{background:#d9ffb2}
+.contact-dialog-secondary{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-top:1px solid #344658;margin-top:22px;padding-top:16px}
+.contact-dialog-secondary button{padding:0;background:none;border:none;color:#d3f9a9;cursor:pointer;font:700 12px var(--display);text-align:left}
+#contact-copy-feedback{font:11px var(--mono);color:#b5ddf1}
+.contact-dialog p.contact-dialog-notice{margin:16px 0 0;font-size:11px;color:#8fa1af}
+@media(max-width:900px){.academy-layout{grid-template-columns:1fr;gap:32px}.academy-visual{max-width:540px;min-height:0}.academy-section{padding-block:70px}.academy-copy h2{font-size:clamp(42px,8vw,64px)}}
+@media(max-width:600px){.contact-fab{right:12px;bottom:max(12px,env(safe-area-inset-bottom) + 11px);padding:13px 15px;font-size:12px}.academy-visual{display:block}.academy-side-note{position:static;width:max-content;margin:12px 0 0 auto;padding:10px}.academy-gridline{font-size:8px}.academy-window-top{font-size:8px}.academy-window{min-height:215px}}
+@media(prefers-reduced-motion:reduce){.contact-fab{transition:none}.contact-fab:hover{transform:none}}
